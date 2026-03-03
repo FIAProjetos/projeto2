@@ -37,7 +37,7 @@ while cap.isOpened():
 
     mp_image = mp.Image(
         image_format=mp.ImageFormat.SRGB,
-        data=rgbA
+        data=rgb
     )
 
     timestamp += 33
